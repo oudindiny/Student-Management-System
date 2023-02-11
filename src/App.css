@@ -11,34 +11,34 @@ body {
   font-family: "Pretendard-Regular";
   margin: 0px;
 }
-/* InputPhoneNumber */
+/* MainPage */
 
-.InputPhoneNumber {
+.MainPage {
   background-color: antiquewhite;
 }
-.InputPhoneNumber .main {
+.MainPage .main {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.InputPhoneNumber .main img {
+.MainPage .main img {
   width: 200px;
 }
-.InputPhoneNumber .main .bookRegistration {
+.MainPage .main .bookRegistration {
   background-color: blueviolet;
   width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.InputPhoneNumber .main .goHome {
+.MainPage .main .goHome {
   background-color: rgb(217, 226, 43);
   width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.InputPhoneNumber .main .logout {
+.MainPage .main .logout {
   background-color: rgb(226, 43, 43);
   width: 20%;
   display: flex;

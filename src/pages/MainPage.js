@@ -1,11 +1,11 @@
 import React from "react";
-import data from "./../data";
+import data from "../data";
 
-const InputPhoneNumber = () => {
+const MainPage = () => {
   const tableData = data;
   console.log(tableData);
   return (
-    <div className="InputPhoneNumber">
+    <div className="MainPage">
       <div className="main">
         <div className="bookRegistration">
           <img src="./image/book.png"></img>
@@ -35,4 +35,4 @@ const InputPhoneNumber = () => {
   );
 };
 
-export default InputPhoneNumber;
+export default MainPage;

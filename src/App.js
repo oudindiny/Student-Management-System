@@ -1,10 +1,10 @@
 import "./App.css";
-import InputPhoneNumber from "./pages/InputPhoneNumber";
+import MainPage from "./pages/MainPage";
 
 function App() {
   return (
     <div className="App">
-      <InputPhoneNumber />
+      <MainPage />
     </div>
   );
 }
