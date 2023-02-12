@@ -14,7 +14,10 @@ body {
 /* MainPage */
 
 .MainPage {
-  background-color: antiquewhite;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
 }
 .MainPage .main {
   display: flex;
@@ -23,20 +26,35 @@ body {
 }
 .MainPage .main img {
   width: 200px;
+  margin: 20px;
 }
 .MainPage .main .bookRegistration {
-  background-color: blueviolet;
+  background-color: rgb(243, 250, 255);
   width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 20px;
+  border: 1px solid rgb(183, 183, 183);
+  margin-left: 50px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  cursor: pointer;
 }
 .MainPage .main .goHome {
-  background-color: rgb(217, 226, 43);
+  background-color: rgb(243, 250, 255);
   width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 20px;
+  border: 1px solid rgb(183, 183, 183);
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  cursor: pointer;
 }
 .MainPage .main .logout {
   background-color: rgb(226, 43, 43);
@@ -44,4 +62,49 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 20px;
+  border: 1px solid rgb(183, 183, 183);
+  margin-left: 20px;
+  margin-right: 50px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.MainPage .tables {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.MainPage .table {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightblue;
+}
+.MainPage .table {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightblue;
+}
+.MainPage .table2 {
+  display: flex;
+  align-items: center;
+}
+.MainPage .no {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.MainPage .bookName {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.MainPage .readDate {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
 }
