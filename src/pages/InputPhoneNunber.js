@@ -5,6 +5,10 @@ const InputPhoneNunber = () => {
 
   const handlePhoneNumber = (e) => {
     setphoneNumber([...phoneNumber, e.target.innerText]);
+    if (phoneNumber.length <= 4) {
+      setphoneNumber([...phoneNumber, e.target.innerText]);
+    } else {
+    }
   };
   console.log(phoneNumber);
   return (
