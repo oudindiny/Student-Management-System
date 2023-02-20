@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import data from "../data";
 
 const MainPage = () => {
   const tableData = data;
+  const navigate = useNavigate();
   console.log(tableData);
+
   return (
     <div className="MainPage">
       <div className="main">
@@ -15,7 +18,7 @@ const MainPage = () => {
           <img src="./image/student.png"></img>
           <span> 하원 </span>
         </div>
-        <div className="logout">
+        <div className="logout" onClick={navigate("/", { replace: "true" })}>
           <img src="./image/logout.png"></img>
           <span>로그아웃</span>
         </div>

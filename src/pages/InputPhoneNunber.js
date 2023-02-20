@@ -1,24 +1,26 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const InputPhoneNunber = () => {
   const [phoneNumber, setphoneNumber] = useState([]);
+  const navigate = useNavigate();
 
   const handlePhoneNumber = (e) => {
     setphoneNumber([...phoneNumber, e.target.innerText]);
-    if (phoneNumber.length <= 4) {
-      setphoneNumber([...phoneNumber, e.target.innerText]);
+    if (phoneNumber.length === 4) {
+      const test = phoneNumber.join("");
+      navigate(`/${test}`, { replace: "true" });
     } else {
+      setphoneNumber([...phoneNumber, e.target.innerText]);
     }
   };
-  console.log(phoneNumber);
+
   return (
     <div className="InputPhoneNunber">
       <div className="input">
         <input></input>
       </div>
-      {/* <div className="number">
-        <input type="button" id="1" onClick={handlePhoneNumber(this.id)} />
-      </div> */}
+
       <span>{phoneNumber}</span>
       <button onClick={handlePhoneNumber}>1</button>
       <button onClick={handlePhoneNumber}>2</button>

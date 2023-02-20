@@ -9,7 +9,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<InputPhoneNunber />} />
-          <Route path="/Main" element={<MainPage />} />
+          <Route path="/0000" element={<MainPage />} />
         </Routes>
       </div>
     </BrowserRouter>
