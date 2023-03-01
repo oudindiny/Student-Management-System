@@ -16,22 +16,32 @@ const InputPhoneNunber = () => {
   };
 
   return (
-    <div className="InputPhoneNunber">
-      <div className="input">
-        <input></input>
+    <div className="InputPhoneNumber">
+      <div className="number">
+        <span>{phoneNumber}</span>
       </div>
 
-      <span>{phoneNumber}</span>
-      <button onClick={handlePhoneNumber}>1</button>
-      <button onClick={handlePhoneNumber}>2</button>
-      <button onClick={handlePhoneNumber}>3</button>
-      <button onClick={handlePhoneNumber}>4</button>
-      <button onClick={handlePhoneNumber}>5</button>
-      <button onClick={handlePhoneNumber}>6</button>
-      <button onClick={handlePhoneNumber}>7</button>
-      <button onClick={handlePhoneNumber}>8</button>
-      <button onClick={handlePhoneNumber}>9</button>
-      <button onClick={handlePhoneNumber}>0</button>
+      <div className="col">
+        <button onClick={handlePhoneNumber}>1</button>
+        <button onClick={handlePhoneNumber}>2</button>
+        <button onClick={handlePhoneNumber}>3</button>
+      </div>
+      <div className="col">
+        <button onClick={handlePhoneNumber}>4</button>
+        <button onClick={handlePhoneNumber}>5</button>
+        <button onClick={handlePhoneNumber}>6</button>
+      </div>
+      <div className="col">
+        <button onClick={handlePhoneNumber}>7</button>
+        <button onClick={handlePhoneNumber}>8</button>
+        <button onClick={handlePhoneNumber}>9</button>
+      </div>
+      <div className="col">
+        <button onClick={handlePhoneNumber}>0</button>
+      </div>
+      <div className="col">
+        <button onClick={handlePhoneNumber}>확인</button>
+      </div>
     </div>
   );
 };

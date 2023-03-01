@@ -108,3 +108,27 @@ body {
   flex-direction: column;
   width: 30%;
 }
+/* InputPhoneNumber */
+.InputPhoneNumber {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.InputPhoneNumber .number {
+  margin: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.InputPhoneNumber .col button {
+  padding: 30px;
+  margin: 10px;
+  border: none;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0px 2px 2px 1px #a3a3a3;
+}
